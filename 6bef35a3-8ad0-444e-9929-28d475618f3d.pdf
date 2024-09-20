@@ -1,0 +1,351 @@
+{
+  "id": "71b4b20e-a749-419b-b4ac-36fd0580ad56",
+  "name": "FUNIL 2",
+  "nodes": [
+    {
+      "id": "start_node",
+      "type": "start",
+      "content": "",
+      "position": {
+        "left": "50px",
+        "top": "50px"
+      }
+    },
+    {
+      "id": "wait_1726516417659",
+      "type": "wait",
+      "content": "20",
+      "position": {
+        "left": "200px",
+        "top": "50px"
+      }
+    },
+    {
+      "id": "typing_1726516478725",
+      "type": "typing",
+      "content": "",
+      "position": {
+        "left": "200px",
+        "top": "410px"
+      },
+      "duration": 5
+    },
+    {
+      "id": "message_1726516492388",
+      "type": "message",
+      "content": "Amor esse número é só pra venda de conteúdo, tá?",
+      "position": {
+        "left": "570px",
+        "top": "40px"
+      }
+    },
+    {
+      "id": "wait_1726516566515",
+      "type": "wait",
+      "content": "8",
+      "position": {
+        "left": "640px",
+        "top": "430px"
+      }
+    },
+    {
+      "id": "audio_1726516599311",
+      "type": "audio",
+      "content": "https://raw.githubusercontent.com/darkdohot/medias/main/ca4e5252-dc3d-49f7-832a-dc82bc0b6d46.mp3",
+      "position": {
+        "left": "870px",
+        "top": "0px"
+      },
+      "caption": ""
+    },
+    {
+      "id": "message_1726516673843",
+      "type": "message",
+      "content": "Essa sou eu, bem safadinha né? Espero que tenha gostado",
+      "position": {
+        "left": "2310px",
+        "top": "10px"
+      }
+    },
+    {
+      "id": "input_1726516750133",
+      "type": "input",
+      "content": "O que acha amore?",
+      "position": {
+        "left": "1340px",
+        "top": "390px"
+      },
+      "inputKey": "",
+      "saveResponse": true
+    },
+    {
+      "id": "video_1726516775667",
+      "type": "video",
+      "content": "https://raw.githubusercontent.com/darkdohot/medias/main/aeab2cf9-a71a-4af7-a0ab-9161b7d1545a.mp4",
+      "position": {
+        "left": "1650px",
+        "top": "350px"
+      },
+      "caption": ""
+    },
+    {
+      "id": "wait_1726516829560",
+      "type": "wait",
+      "content": "3",
+      "position": {
+        "left": "1840px",
+        "top": "20px"
+      }
+    },
+    {
+      "id": "wait_1726516898427",
+      "type": "wait",
+      "content": "12",
+      "position": {
+        "left": "2470px",
+        "top": "510px"
+      }
+    },
+    {
+      "id": "wait_1726516964743",
+      "type": "wait",
+      "content": "4",
+      "position": {
+        "left": "3340px",
+        "top": "490px"
+      }
+    },
+    {
+      "id": "typing_1726516966491",
+      "type": "typing",
+      "content": "",
+      "position": {
+        "left": "3420px",
+        "top": "0px"
+      },
+      "duration": 5
+    },
+    {
+      "id": "message_1726516991900",
+      "type": "message",
+      "content": " qual pacote você quer amor?",
+      "position": {
+        "left": "3670px",
+        "top": "210px"
+      }
+    },
+    {
+      "id": "audio_1726517338881",
+      "type": "audio",
+      "content": "https://raw.githubusercontent.com/darkdohot/medias/main/c2528218-7a32-4758-8437-7874ca29fcee.mp3",
+      "position": {
+        "left": "2690px",
+        "top": "0px"
+      },
+      "caption": ""
+    },
+    {
+      "id": "typing_1726517656643",
+      "type": "typing",
+      "content": "",
+      "position": {
+        "left": "2030px",
+        "top": "570px"
+      },
+      "duration": 4
+    },
+    {
+      "id": "wait_1726518638159",
+      "type": "wait",
+      "content": "3",
+      "position": {
+        "left": "2890px",
+        "top": "470px"
+      }
+    },
+    {
+      "id": "wait_1726519130296",
+      "type": "wait",
+      "content": "10",
+      "position": {
+        "left": "1350px",
+        "top": "20px"
+      }
+    },
+    {
+      "id": "image_1726526276450",
+      "type": "image",
+      "content": "https://raw.githubusercontent.com/darkdohot/medias/main/6688ed15-5c99-4d17-b08a-f6355dcbf2fa.jpg",
+      "position": {
+        "left": "3080px",
+        "top": "20px"
+      },
+      "caption": ""
+    },
+    {
+      "id": "wait_1726761203841",
+      "type": "wait",
+      "content": "3",
+      "position": {
+        "left": "1010px",
+        "top": "380px"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "sourceId": "start_node",
+      "targetId": "wait_1726516417659",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "wait_1726516417659",
+      "targetId": "typing_1726516478725",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "typing_1726516478725",
+      "targetId": "message_1726516492388",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "message_1726516492388",
+      "targetId": "wait_1726516566515",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "video_1726516775667",
+      "targetId": "wait_1726516829560",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "message_1726516673843",
+      "targetId": "wait_1726516898427",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "wait_1726516964743",
+      "targetId": "typing_1726516966491",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "typing_1726516966491",
+      "targetId": "message_1726516991900",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "wait_1726516829560",
+      "targetId": "typing_1726517656643",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "typing_1726517656643",
+      "targetId": "message_1726516673843",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "wait_1726516898427",
+      "targetId": "audio_1726517338881",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "wait_1726516566515",
+      "targetId": "audio_1726516599311",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "audio_1726517338881",
+      "targetId": "wait_1726518638159",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "input_1726516750133",
+      "targetId": "wait_1726519130296",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "wait_1726519130296",
+      "targetId": "video_1726516775667",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "wait_1726518638159",
+      "targetId": "image_1726526276450",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "image_1726526276450",
+      "targetId": "wait_1726516964743",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "wait_1726761203841",
+      "targetId": "input_1726516750133",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "sourceId": "audio_1726516599311",
+      "targetId": "wait_1726761203841",
+      "anchors": [
+        "Right",
+        "Left"
+      ]
+    }
+  ],
+  "exportedAt": "2024-09-20T17:37:47.427Z",
+  "exportVersion": "1.0"
+}
